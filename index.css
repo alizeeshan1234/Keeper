@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.footer {
+  position : relative;
+    top : 600px;
+    color: white;
+    text-align: center;
+    font-size : 27px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    opacity : 0.5;
+}
+
+.divStyle{
+  height: fit-content;
+  width: fit-content;
+  margin-left:10px;
+  background-color: white;
+  border: 0px solid transparent;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 20px;
+  transition: 0.3s ease;
+}
+
+.divStyle:hover{
+  box-shadow: 10px 10px  black;
+  transition: 0.3s ease;
+}
+
+.renderTasks{
+  position: relative;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  grid-gap: 30px;
+  text-align: center;
+  margin-left: 10px;
+  margin-left: 10px;
+}
+
+.headingStyle{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  background-color:black;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border: 0px solid transparent;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: white;
+}
+
+.contentStyle{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
